@@ -1,0 +1,83 @@
+.text-prim {
+  color: white;
+}
+.button-color {
+  font-size: 25px;
+  background-color: grey;
+  border-color: white;
+}
+.cloud-primary {
+  opacity: 100;
+  color: white;
+  font-size:75px;
+  margin-left:-20px;
+}
+
+.sun-prim {
+  color: yellow;
+  font-size: 50px;
+  margin-left:20px;
+}
+.sun-cent {
+  color: #ff6600;
+  font-size: 40px;
+  margin-left: 27px;
+}
+.sunny {
+  text-align: center;
+}
+.cloud-second {
+  opacity: 70;
+  color:white;
+  font-size: 50px;
+}
+.thunder {
+  text-align: center;
+}
+.thunder-cloud {
+  font-size: 75px;
+  margin-left: -20px;
+  color: grey;
+}
+.bolt-prim {
+  color: yellow;
+  font-size: 40px;
+  margin-top: 55px;
+  margin-left: -10px;
+}
+.bolt-sec {
+  color:yellow;
+  font-size: 30px;
+  margin-top:55px;
+  margin-left:15px;
+}
+.rainy {
+  text-align: center;
+}
+.rain-prim {
+  color: #3399ff;
+  font-size: 30px;
+  margin-top: 55px;
+  margin-left: -10px;
+}
+.rain-sec {
+  color: #3399ff;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.snow {
+  text-align: center;
+}
+.flake-prim {
+  color:#00ffff;
+  font-size: 25px;
+  margin-top: 55px;
+  margin-left:-10px;
+}
+.flake-sec {
+  color:#00ffff;
+  font-size: 20px;
+  margin-top: 58px;
+  margin-left:15px;
+}

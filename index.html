@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body style="background-color: #454545;">
+  <div class="container">
+    <br><br>
+    <div id="loc">
+      <h1 id = "location" class="text-center text-prim"></h1>
+    </div>
+    <div class = row>
+      <div class = "col-md-3"> </div>
+      <h1 id = "temp" class="col-md-6 text-center text-prim"> </h1><button class = "text-prim button-color col-md-1" id = "tempscale" onclick = "switchScale()">C</button>
+      
+      
+      <!--
+modify html with "Current temperature __ F/C
+-->
+    </div>
+    <div >
+      <h5 id = "time" class = "text-center text-prim"></h5>
+    </div>
+    <div class="sunny" style="margin-top: 20px;">
+      <div id="sunny">
+        <span class="fa-stack">
+      <i class = "fa fa-circle fa-stack-1x sun-cent" style="text-align: center;"></i>
+  <i class="fa fa-sun-o fa-stack-1x sun-prim"></i>
+     <i class="fa fa-cloud fa-stack-2x cloud-primary"></i>
+</span>
+      </div>
+
+      <div id="thunder" style="margin-top: -32px;">
+        <span class="fa-stack">
+        <i class = "fa fa-cloud thunder-cloud fa-stack-2x"></i>
+        <i class = "fa fa-bolt bolt-prim fa-stack-1x"></i>
+        <i class = "fa fa-bolt bolt-sec fa-stack-1x"></i>
+        </span>
+      </div>
+
+      <div id="rainy" style="margin-top: -32px;">
+        <span class="fa-stack">
+        <i class = "fa fa-cloud thunder-cloud fa-stack-2x"></i>
+        <i class = "fa fa-tint rain-prim fa-stack-1x"></i>
+        <i class = "fa fa-tint rain-sec fa-stack-1x"></i>
+    </div>
+        <div  id = "snow" style = "margin-top: -32px;">
+        <span class="fa-stack">
+        <i class = "fa fa-cloud cloud-primary fa-stack-2x"></i>
+        <i class = "fa fa-snowflake-o flake-prim fa-stack-1x"></i>
+        <i class = "fa fa-snowflake-o flake-sec fa-stack-1x"></i>
+    </div>
+  </div>
+        <div class = "text-center">
+          <br><br><br>
+        <p>Powered by <a href = "https://www.wunderground.com/" target = "_blank">Weather Underground API</a>.</p>
+        </div>
+      </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
