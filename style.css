@@ -5,6 +5,8 @@
   font-size: 25px;
   background-color: grey;
   border-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .cloud-primary {
   opacity: 100;
@@ -12,7 +14,12 @@
   font-size:75px;
   margin-left:-20px;
 }
-
+.cloud-third {
+  opacity: 100;
+  color: grey;
+  font-size:75px;
+  margin-left:-20px;
+}
 .sun-prim {
   color: yellow;
   font-size: 50px;
