@@ -1,0 +1,99 @@
+<body style="background-color: #454545;">
+
+  <div class="container">
+
+    <br><br>
+    <div id="loc">
+      <h1 id="location" class="text-center text-prim">Welcome</h1>
+    </div>
+    <div class="row" style="opacity: 0;" id="tempButton">
+      <div class="col-xs-4 col-sm-4 col-md-4"> </div>
+      <div class = "col-xs-1 col-sm-1 col-md-4">
+      <h2 id="temp" class="text-center text-prim"></h2>
+      </div>
+      <div class = "col-xs-4 col-md-4 col-sm-4">
+      <button class= "text-center text-prim button-color" id="tempscale" onclick="switchScale()">C</button>
+      </div>
+    </div>
+    <div>
+      <h5 id="time" class="text-center text-prim">Make sure location services are turned on to view the local weather.</h5>
+    </div>
+    
+      
+      
+    <div class="sunny" style="margin-top: 20px;">
+      <div id="cloudy" style="opacity: 0;">
+        <span class="fa-stack">
+          <i class = "fa fa-cloud cloud-third" style = "text-align: center;"></i>
+        </span>
+    </div>
+      <div id="sunny" style="opacity: 0;">
+        <span class="fa-stack">
+      <i class = "fa fa-circle fa-stack-1x sun-cent" style="text-align: center;"></i>
+  <i class="fa fa-sun-o fa-stack-1x sun-prim"></i>
+     <i class="fa fa-cloud fa-stack-2x cloud-primary"></i>
+</span>
+      </div>
+
+      <div id="thunder" style="margin-top: -32px; opacity: 0;">
+        <span class="fa-stack">
+        <i class = "fa fa-cloud thunder-cloud fa-stack-2x"></i>
+        <i class = "fa fa-bolt bolt-prim fa-stack-1x"></i>
+        <i class = "fa fa-bolt bolt-sec fa-stack-1x"></i>
+        </span>
+      </div>
+
+      <div id="rainy" style="margin-top: -32px; opacity: 0;">
+        <span class="fa-stack">
+        <i class = "fa fa-cloud thunder-cloud fa-stack-2x"></i>
+        <i class = "fa fa-tint rain-prim fa-stack-1x"></i>
+        <i class = "fa fa-tint rain-sec fa-stack-1x"></i>
+    </div>
+        <div  id = "snow" style = "margin-top: -32px; opacity: 0;">
+        <span class="fa-stack">
+        <i class = "fa fa-cloud cloud-primary fa-stack-2x"></i>
+        <i class = "fa fa-snowflake-o flake-prim fa-stack-1x"></i>
+        <i class = "fa fa-snowflake-o flake-sec fa-stack-1x"></i>
+    </div>
+  </div>
+          <br><br>
+          <div id = "extra" class = "row text-center text-prim">
+            <div class = "col-md-3"></div>
+            <div class = "col-md-3">
+              <h4 id = "humid"></h4>
+            </div>
+            <div class = "col-md-3">
+              <h4 id = "UV"></h4>
+            </div>
+            <div class = "col-md-3"></div>
+          </div>
+          
+      </div>
+      <div class="container" id="welcome">
+    
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class= "col-md-2">
+        <h5 class="text-prim">Country/State</h5>
+        <input type="text" class="form-control" aria-describedby="search" id="search_region">
+      </div>
+      <div class="col-md-3">
+        <h5 class="text-prim">City</h5>
+        <div class="input-group">
+          <input type="text" class="form-control" aria-describedby="search" id="search">
+          <button class=" btn input-group-addon input-group-buton" id="search_button">Search</button>
+        </div>
+      </div>
+      <div class = "col-md-1"></div>
+      <div class = "col-md-1">
+        <button class="button btn" style = "margin-top: 30px;" id = "local" >Current Location</button>
+      </div>
+    </div>
+        <br><br>
+                <div class = "text-center" id = "weatherlink" style= "opacity: 0;">
+
+        <p>Powered by <a href = "https://www.wunderground.com/" target = "_blank">Weather Underground API</a>.</p>
+        </div>
+  </div>
+    </div>
+</body>
